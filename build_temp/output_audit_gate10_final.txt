@@ -1,0 +1,29 @@
+=== GATE REPORT ===
+Gate: Engine Lifecycle & State Control
+Status: PASS
+World Instances: 1
+Engine Constructed: true
+Loop Running: false
+Current State: SHUTDOWN
+Tick Count: 5
+MaxTicks Enabled: true
+MaxTicks Value: 8
+Stop Reason: audit_complete
+Paused Tick Count Delta: 0
+InitOnce Executed Once: true
+Snapshot Performed: true
+Restore Performed: true
+EventBus Empty After Restore: true
+State Transition Log:
+- 0 BOOT -> INIT_ONCE (Engine Start)
+- 0 INIT_ONCE -> RUNNING (Initialization Complete)
+- 2 RUNNING -> PAUSED (audit_pause)
+- 2 PAUSED -> RUNNING (audit_resume)
+- 3 RUNNING -> SNAPSHOTTING (audit_snapshot)
+- 3 SNAPSHOTTING -> RUNNING (Snapshot Complete)
+- 4 RUNNING -> RESTORING (audit_restore_latest)
+- 3 RESTORING -> RUNNING (Restore Complete)
+- 5 RUNNING -> SHUTDOWN (audit_complete)
+Registered Systems: DummySystem, InitSystem
+Integrity Violations: none
+===================

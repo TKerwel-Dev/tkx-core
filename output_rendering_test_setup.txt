@@ -1,0 +1,10 @@
+=== SETUP REPORT ===
+Phase: Rendering Test Isolation
+Engine Unmodified: true
+Rendering Folder Created: true
+Multi Entry Config Active: true
+Three Installed: true
+Isolation Valid: true
+Dev Server Functional: true
+Integrity Violations: none
+=====================

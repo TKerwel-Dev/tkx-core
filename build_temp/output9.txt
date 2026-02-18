@@ -1,0 +1,100 @@
+Starting Gate 9 Verification (Equipment & Stat Modifier Layer)...
+--- GRID START ---
+. . . . . . . . . .
+P . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . M .
+. . . . . . . . . .
+--- GRID END ---
+--- GRID START ---
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . M .
+. . . . . . . . . .
+--- GRID END ---
+--- GRID START ---
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . M .
+. . . . . . . . . .
+--- GRID END ---
+--- GRID START ---
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . M .
+. . . . . . . . . .
+--- GRID END ---
+=== UI STATUS ===
+Tick: 3
+Player Position: (-1,-1)
+Player HP: 3/3
+Monster Position: (8,8)
+Monster HP: 3/3
+=================
+--- GRID START ---
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . P . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+--- GRID END ---
+=== GATE REPORT ===
+Gate: Equipment & Stat Modifier Layer
+Status: PASS
+World Instances: 1
+Registered Systems: [ SpawnGridSystem, InputSystem, MovementSystem, CollisionSystem, CombatSystem, LootSystem, InventorySystem, EquipmentSystem, StatAggregationSystem, VisualSystem, UISystem ]
+ItemRegistry Ready: true
+
+Equip Flow:
+EquipItemEvent Processed: true
+Equipped Weapon: rusty_sword
+StatModifier Applied: true
+DerivedStats Calculated: true
+Derived Damage (Expected 2): 2
+
+Combat Verification:
+Damage Without Equipment: 1
+Damage With Equipment: 2
+Monster HP Before: 3
+Monster HP After: 1
+
+Persistence:
+Snapshot Contains Equipment: true
+Snapshot Contains StatModifiers: true
+Snapshot Contains DerivedStats: true
+DerivedStats Restored Correctly: true
+
+Integrity:
+EventBus Cleared After Tick: true
+Transient Components Excluded: true
+No Direct Combat/Stats Mutation Outside Systems: true
+Integrity Violations: none
+===================

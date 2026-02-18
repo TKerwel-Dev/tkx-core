@@ -1,0 +1,18 @@
+{
+  "name": "das-erbe-der-runen",
+  "version": "0.1.0",
+  "description": "Engine Foundation - Gate 0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "verify:gate0": "npm run build && node dist/verify/verify_gate0.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "three": "^0.182.0"
+  }
+}
