@@ -1,8 +1,8 @@
 ---
 
-## 🧭 Project Status
+🧭 Project Status
 
-**TKX Core 0.2.0 – Modernized Architecture Baseline**
+TKX Core 0.2.0 – Modernized Architecture Baseline
 
 The engine has been fully migrated to a modern ESNext + Bundler architecture.
 
@@ -18,13 +18,13 @@ Key characteristics:
 - No implicit system registration
 - No global state leakage
 
-This version serves as the architectural baseline for all future TKX-based projects, including game implementations such as *Das Erbe der Runen*.
+This version serves as the architectural baseline for all future TKX-based projects, including game implementations such as "Das Erbe der Runen".
 
 Stability and architectural integrity take priority over feature velocity.
 
 ---
 
-## 🔒 Architectural Principles
+🔒 Architectural Principles
 
 - Determinism > Convenience  
 - Isolation > Implicit Magic  
@@ -33,7 +33,7 @@ Stability and architectural integrity take priority over feature velocity.
 
 ---
 
-## 📦 Versioning
+📦 Versioning
 
 Versioning follows semantic principles:
 
@@ -41,4 +41,4 @@ Versioning follows semantic principles:
 - The `VERSION` file reflects the canonical engine version.
 - Releases on GitHub represent frozen architectural snapshots.
 
-Current Stable Baseline: **v0.2.0**
+Current Stable Baseline: v0.2.0
