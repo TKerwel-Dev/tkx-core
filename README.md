@@ -1,4 +1,3 @@
-body: |
   🧭 Project Status
 
   TKX Core 0.2.0 – Modernized Architecture Baseline
