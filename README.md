@@ -4,7 +4,7 @@
 
 TKX Core 0.2.0 – Modernized Architecture Baseline
 
-The engine has been fully migrated to a modern ESNext + Bundler architecture.
+The engine has been fully migrated to a modern ESNext and Bundler architecture.
 
 Key characteristics:
 
