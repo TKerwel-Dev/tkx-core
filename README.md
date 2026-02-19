@@ -16,7 +16,7 @@
   - No implicit system registration
   - No global state leakage
 
-  This version serves as the architectural baseline for all future TKX-based projects, including game implementations such as "Das Erbe der Runen".
+  This version serves as the architectural baseline for all future TKX-based projects, including game implementations such as "Dthe-legacy-of-the-runes".
 
   Stability and architectural integrity take priority over feature velocity.
 
