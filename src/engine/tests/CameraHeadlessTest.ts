@@ -1,5 +1,5 @@
-import { Camera } from "../render/Camera.js";
-import { WebGLRenderer } from "../render/webgl/WebGLRenderer.js";
+import { Camera } from "../render/Camera";
+import { WebGLRenderer } from "../render/webgl/WebGLRenderer";
 
 /**
  * Headless test for R1 Camera Foundation.

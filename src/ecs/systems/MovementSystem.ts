@@ -1,6 +1,6 @@
-import { World } from "../../engine/World.js";
-import { Position } from "../components/Position.js";
-import { MoveIntent } from "../components/MoveIntent.js";
+import { World } from "../../engine/World";
+import { Position } from "../components/Position";
+import { MoveIntent } from "../components/MoveIntent";
 
 export function MovementSystem(world: World, tick: number): void {
     const entities = world.query("Position", "MoveIntent");

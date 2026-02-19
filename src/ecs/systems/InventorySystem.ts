@@ -1,8 +1,8 @@
 
-import { World } from "../../engine/World.js";
-import { ItemRegistry } from "../../items/ItemRegistry.js";
-import { Inventory } from "../components/Inventory.js";
-import { ItemAddedEvent, ItemRemovedEvent } from "../../engine/EventBus.js";
+import { World } from "../../engine/World";
+import { ItemRegistry } from "../../items/ItemRegistry";
+import { Inventory } from "../components/Inventory";
+import { ItemAddedEvent, ItemRemovedEvent } from "../../engine/EventBus";
 
 interface StoredInventory {
     items: { itemId: string; quantity: number }[];

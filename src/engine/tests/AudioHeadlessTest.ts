@@ -1,5 +1,5 @@
-import { GameEngine } from "../GameEngine.js";
-import { AudioSubsystem } from "../AudioSubsystem.js";
+import { GameEngine } from "../GameEngine";
+import { AudioSubsystem } from "../AudioSubsystem";
 
 /**
  * Strict Headless Test for AudioSubsystem (Formal Compliance).

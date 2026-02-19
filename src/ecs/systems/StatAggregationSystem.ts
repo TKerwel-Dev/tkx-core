@@ -1,8 +1,8 @@
 
-import { World } from "../../engine/World.js";
-import { BaseStats } from "../components/BaseStats.js";
-import { StatModifier } from "../components/StatModifier.js";
-import { DerivedStats } from "../components/DerivedStats.js";
+import { World } from "../../engine/World";
+import { BaseStats } from "../components/BaseStats";
+import { StatModifier } from "../components/StatModifier";
+import { DerivedStats } from "../components/DerivedStats";
 
 export function StatAggregationSystem(world: World, tick: number): void {
     const entities = world.getAllComponents();

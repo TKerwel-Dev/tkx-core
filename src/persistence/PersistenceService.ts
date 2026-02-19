@@ -1,4 +1,4 @@
-import { World } from "../engine/World.js";
+import { World } from "../engine/World";
 
 export interface Snapshot {
     tick: number;

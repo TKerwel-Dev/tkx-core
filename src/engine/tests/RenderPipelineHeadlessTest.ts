@@ -1,7 +1,7 @@
-import { RenderPipeline } from "../render/RenderPipeline.js";
-import { RenderQueue } from "../render/RenderQueue.js";
-import { IRenderer } from "../render/IRenderer.js";
-import { RenderTarget, DrawQuadCmd } from "../render/types.js";
+import { RenderPipeline } from "../render/RenderPipeline";
+import { RenderQueue } from "../render/RenderQueue";
+import { IRenderer } from "../render/IRenderer";
+import { RenderTarget, DrawQuadCmd } from "../render/types";
 
 /**
  * Mock Renderer for testing pipeline discipline.

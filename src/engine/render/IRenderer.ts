@@ -1,4 +1,4 @@
-import { RenderTarget, DrawQuadCmd } from "./types.js";
+import { RenderTarget, DrawQuadCmd } from "./types";
 
 /**
  * IRenderer defines the hardware-agnostic interface for the engine's rendering backend.

@@ -1,4 +1,4 @@
-import { RenderCommand } from "./RenderCommand.js";
+import { RenderCommand } from "./RenderCommand";
 
 /**
  * RenderQueue collects and sorts render commands for efficient back-to-front rendering.

@@ -1,4 +1,4 @@
-import { World } from "./World.js";
+import { World } from "./World";
 
 export type GateReport = {
     gate: string;

@@ -1,7 +1,7 @@
-import { IRenderer } from "../IRenderer.js";
-import { RenderTarget, DrawQuadCmd } from "../types.js";
-import { VERTEX_SHADER, FRAGMENT_SHADER } from "./glsl.js";
-import { Camera } from "../Camera.js";
+import { IRenderer } from "../IRenderer";
+import { RenderTarget, DrawQuadCmd } from "../types";
+import { VERTEX_SHADER, FRAGMENT_SHADER } from "./glsl";
+import { Camera } from "../Camera";
 
 export class WebGLRenderer implements IRenderer {
     private gl: WebGL2RenderingContext | null = null;

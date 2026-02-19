@@ -1,5 +1,5 @@
-import { GameEngine } from "../GameEngine.js";
-import { EngineState } from "../LifecycleController.js";
+import { GameEngine } from "../GameEngine";
+import { EngineState } from "../LifecycleController";
 
 /**
  * Headless Test for Engine Lifecycle (L1 Unified).

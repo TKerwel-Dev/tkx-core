@@ -1,10 +1,10 @@
-import { World } from "../../engine/World.js";
-import { Position } from "../components/Position.js";
-import { Visual } from "../components/Visual.js";
-import { TileTag } from "../components/TileTag.js";
-import { PlayerTag } from "../components/PlayerTag.js";
-import { MonsterTag } from "../components/MonsterTag.js";
-import { Health } from "../components/Health.js";
+import { World } from "../../engine/World";
+import { Position } from "../components/Position";
+import { Visual } from "../components/Visual";
+import { TileTag } from "../components/TileTag";
+import { PlayerTag } from "../components/PlayerTag";
+import { MonsterTag } from "../components/MonsterTag";
+import { Health } from "../components/Health";
 
 export function SpawnGridSystem(world: World, tick: number): void {
     // 10x10 Grid of Tiles

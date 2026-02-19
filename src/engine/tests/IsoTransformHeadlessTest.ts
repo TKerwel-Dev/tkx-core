@@ -1,6 +1,6 @@
-import { IsoTransform } from "../render/IsoTransform.js";
-import { RenderQueue } from "../render/RenderQueue.js";
-import { RenderCommand } from "../render/RenderCommand.js";
+import { IsoTransform } from "../render/IsoTransform";
+import { RenderQueue } from "../render/RenderQueue";
+import { RenderCommand } from "../render/RenderCommand";
 
 /**
  * Headless test for R2 Iso Projection & Depth Discipline.

@@ -1,5 +1,5 @@
-import { World } from "../../engine/World.js";
-import { ItemAddedEvent } from "../../engine/EventBus.js";
+import { World } from "../../engine/World";
+import { ItemAddedEvent } from "../../engine/EventBus";
 
 export class LootedFlag {
     constructor() { }

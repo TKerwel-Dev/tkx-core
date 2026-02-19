@@ -1,4 +1,4 @@
-import type { GameEngine } from "./GameEngine.js";
+import type { GameEngine } from "./GameEngine";
 
 export enum EngineState {
     BOOT = "BOOT",
@@ -63,9 +63,6 @@ export class LifecycleController {
                 break;
             case EngineState.RESTORING:
                 valid = (to === EngineState.RUNNING);
-                break;
-            case EngineState.SHUTDOWN:
-                valid = false;
                 break;
         }
 

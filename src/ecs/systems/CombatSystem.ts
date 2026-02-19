@@ -1,8 +1,8 @@
-import { World } from "../../engine/World.js";
-import { Health } from "../components/Health.js";
-import { ContactLock } from "../components/ContactLock.js";
-import { DerivedStats } from "../components/DerivedStats.js";
-import { CollisionEvent, DamageEvent } from "../../engine/EventBus.js";
+import { World } from "../../engine/World";
+import { Health } from "../components/Health";
+import { ContactLock } from "../components/ContactLock";
+import { DerivedStats } from "../components/DerivedStats";
+import { CollisionEvent, DamageEvent } from "../../engine/EventBus";
 
 export function CombatSystem(world: World, tick: number): void {
     const collisionEvents = world.events.getEvents<CollisionEvent>("CollisionEvent");

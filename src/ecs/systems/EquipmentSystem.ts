@@ -1,9 +1,9 @@
 
-import { World } from "../../engine/World.js";
-import { ItemRegistry } from "../../items/ItemRegistry.js";
-import { Equipment } from "../components/Equipment.js";
-import { StatModifier } from "../components/StatModifier.js";
-import { EquipItemEvent, UnequipItemEvent } from "../../engine/EventBus.js";
+import { World } from "../../engine/World";
+import { ItemRegistry } from "../../items/ItemRegistry";
+import { Equipment } from "../components/Equipment";
+import { StatModifier } from "../components/StatModifier";
+import { EquipItemEvent, UnequipItemEvent } from "../../engine/EventBus";
 
 export function EquipmentSystem(world: World, tick: number): void {
     const equipEvents = world.events.getEvents<EquipItemEvent>("EquipItemEvent");

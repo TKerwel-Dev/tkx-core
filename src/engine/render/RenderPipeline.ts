@@ -1,5 +1,5 @@
-import { IRenderer } from "./IRenderer.js";
-import { RenderQueue } from "./RenderQueue.js";
+import { IRenderer } from "./IRenderer";
+import { RenderQueue } from "./RenderQueue";
 
 /**
  * RenderPipeline orchestrates the flow of data from a RenderQueue to an IRenderer.

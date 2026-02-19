@@ -1,6 +1,6 @@
-import { World } from "../../engine/World.js";
-import { Position } from "../components/Position.js";
-import { CollisionEvent } from "../../engine/EventBus.js";
+import { World } from "../../engine/World";
+import { Position } from "../components/Position";
+import { CollisionEvent } from "../../engine/EventBus";
 
 export function CollisionSystem(world: World, tick: number): void {
     const players = world.query("PlayerTag", "Position");

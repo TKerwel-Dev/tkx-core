@@ -1,5 +1,5 @@
-import { World } from "../../engine/World.js";
-import { MoveIntent } from "../components/MoveIntent.js";
+import { World } from "../../engine/World";
+import { MoveIntent } from "../components/MoveIntent";
 
 export function InputSystem(world: World, tick: number): void {
     const players = world.query("PlayerTag");

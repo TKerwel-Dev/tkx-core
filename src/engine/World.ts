@@ -1,5 +1,9 @@
-import { randomUUID } from "node:crypto";
-import { EventBus } from "./EventBus.js";
+import { EventBus } from "./EventBus";
+
+let worldCounter = 0;
+function fallbackUUID(): string {
+    return `world-${++worldCounter}`;
+}
 
 export class World {
     public readonly id: string;
@@ -11,7 +15,9 @@ export class World {
     private components: Map<number, Map<string, any>> = new Map();
 
     constructor() {
-        this.id = randomUUID();
+        this.id = (typeof globalThis !== "undefined" && globalThis.crypto?.randomUUID)
+            ? globalThis.crypto.randomUUID()
+            : fallbackUUID();
     }
 
     public createEntity(): number {

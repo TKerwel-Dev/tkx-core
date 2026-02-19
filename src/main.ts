@@ -1,13 +1,13 @@
-import { GameEngine } from "./engine/GameEngine.js";
-import { formatGateReport } from "./engine/IntegrityReport.js";
-import { SpawnGridSystem } from "./ecs/systems/SpawnGridSystem.js";
-import { InputSystem } from "./ecs/systems/InputSystem.js";
-import { MovementSystem } from "./ecs/systems/MovementSystem.js";
-import { CollisionSystem } from "./ecs/systems/CollisionSystem.js";
-import { CombatSystem } from "./ecs/systems/CombatSystem.js";
-import { VisualSystem } from "./ecs/systems/VisualSystem.js";
-import { UISystem } from "./ecs/systems/UISystem.js";
-import { WebGLRenderer } from "./engine/render/webgl/WebGLRenderer.js";
+import { GameEngine } from "./engine/GameEngine";
+import { formatGateReport } from "./engine/IntegrityReport";
+import { SpawnGridSystem } from "./ecs/systems/SpawnGridSystem";
+import { InputSystem } from "./ecs/systems/InputSystem";
+import { MovementSystem } from "./ecs/systems/MovementSystem";
+import { CollisionSystem } from "./ecs/systems/CollisionSystem";
+import { CombatSystem } from "./ecs/systems/CombatSystem";
+import { VisualSystem } from "./ecs/systems/VisualSystem";
+import { UISystem } from "./ecs/systems/UISystem";
+import { WebGLRenderer } from "./engine/render/webgl/WebGLRenderer";
 
 async function main() {
     const engine = new GameEngine();

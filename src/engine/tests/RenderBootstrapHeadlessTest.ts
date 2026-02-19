@@ -1,4 +1,4 @@
-import { WebGLRenderer } from "../render/webgl/WebGLRenderer.js";
+import { WebGLRenderer } from "../render/webgl/WebGLRenderer";
 
 /**
  * Headless test for Render Bootstrap.

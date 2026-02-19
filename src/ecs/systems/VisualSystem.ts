@@ -1,6 +1,6 @@
-import { World } from "../../engine/World.js";
-import { Position } from "../components/Position.js";
-import { Visual } from "../components/Visual.js";
+import { World } from "../../engine/World";
+import { Position } from "../components/Position";
+import { Visual } from "../components/Visual";
 
 export function VisualSystem(world: World, tick: number): void {
     const entities = world.query("Position", "Visual");

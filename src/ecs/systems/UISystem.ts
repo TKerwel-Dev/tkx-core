@@ -1,6 +1,6 @@
-import { World } from "../../engine/World.js";
-import { Position } from "../components/Position.js";
-import { Health } from "../components/Health.js";
+import { World } from "../../engine/World";
+import { Position } from "../components/Position";
+import { Health } from "../components/Health";
 
 export function UISystem(world: World, tick: number): void {
     // Gate 4 requirement: UI runs exactly once after tick 4 (which is tick 3 in 0-indexed)

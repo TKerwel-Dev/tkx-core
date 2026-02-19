@@ -1,4 +1,4 @@
-import { Color } from "./types.js";
+import { Color } from "./types";
 
 /**
  * A RenderCommand represents a single atomic drawing operation.

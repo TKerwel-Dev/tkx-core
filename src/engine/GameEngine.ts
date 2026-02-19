@@ -1,9 +1,9 @@
-import { World } from "./World.js";
-import { SystemRegistry } from "./SystemRegistry.js";
-import { GateReport, buildGateReport } from "./IntegrityReport.js";
-import { LifecycleController, EngineState } from "./LifecycleController.js";
-import { PersistenceService, Snapshot } from "../persistence/PersistenceService.js";
-import { AudioSubsystem } from "./AudioSubsystem.js";
+import { World } from "./World";
+import { SystemRegistry } from "./SystemRegistry";
+import { GateReport, buildGateReport } from "./IntegrityReport";
+import { LifecycleController, EngineState } from "./LifecycleController";
+import { PersistenceService, Snapshot } from "../persistence/PersistenceService";
+import { AudioSubsystem } from "./AudioSubsystem";
 
 export class GameEngine {
     public readonly constructed: boolean = true;
